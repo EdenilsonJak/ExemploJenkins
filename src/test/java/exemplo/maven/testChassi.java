@@ -21,7 +21,7 @@ public class testChassi {
     @Test
     public void ValidaChassi(){
         Chassi chassi = new Chassi();
-        assertEquals(2010, chassi.valida("10AB00120A001", 10));
+        assertEquals(2010, chassi.valida("10AB00120A001", 11));
     }
     
     
